@@ -1,2 +1,2 @@
-# nimstrings
-A module that attempts to be the python3 strings for nim
+# strings
+A collection of string constants for nim. A nim port of string module from python3
