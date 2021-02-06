@@ -44,6 +44,6 @@ const ascii_letters* = ascii_lowercase & ascii_uppercase
 const digits* = "0123456789"
 const hexdigits* = digits & "abcdef" & "ABCDEF"
 const octdigits* = "01234567"
-const punctuation* = r"""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
+const punctuation* = """!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
 const printable* = digits & ascii_letters & punctuation & whitespace
 
